@@ -1,3 +1,50 @@
-h1 {
-  color: orange;
+/* ================================================================================
+GENERAL THEMES
+================================================================================ */
+
+body {
+  position: relative;
+  background-color: #ECECEC;
+  height: 100vh;
+}
+
+/* ================================================================================
+NAVIGATION
+================================================================================ */
+
+#icon-container {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+
+#nav-gate-icon {
+  height: 200px;
+  width: 200px;
+}
+/* ================================================================================
+MAIN
+================================================================================ */
+
+#heading {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 2.5rem;
+  position: absolute;
+  margin-top: -2rem;
+  top: 65%;
+  left: 10%;
+  color: #C95507;
+}
+
+#buttons-container {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem 4rem;
+  margin-bottom: 5px;
 }
